@@ -14,7 +14,7 @@ text = page.extractText()
 speaker.say(text)
 speaker.runAndWait()
 
-# If you want the spanish voice import this at first and then paste this in line 15
+# If you want the spanish voice import this at first and then the speaker property at line 15.
 # es_voice_id = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_ES-MX_SABINA_11.0"
 # speaker.setProperty('voice', es_voice_id)
 # speaker.setProperty('voice', es_voice_id)
